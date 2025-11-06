@@ -6,7 +6,7 @@ export default function Projects() {
       name: "Priotti Concep",
       desc: "Tienda online de indumentaria femenina con login, carrito persistente y pagos con MercadoPago. Backend desarrollado con Node.js y Express.",
       link: "https://priotticoncept.netlify.app/",
-      img: "../../public/Captura de pantalla 2025-11-06 154426.png",
+      img: "/public/priottiConcep.png",
       gitHub: [
         "https://github.com/EricBayona/Priotti-Concept-FrontEnd",
         "https://github.com/EricBayona/Priotti-Concept-Backend",
@@ -16,14 +16,14 @@ export default function Projects() {
       name: "Macaneros",
       desc: "Tienda online de pijamas con autenticación de usuarios, gestión de productos, carrito persistente y sistema de pagos integrado con Firebase.",
       link: "https://macaneros.netlify.app/",
-      img: "../../public/Captura de pantalla 2025-11-06 154905.png",
+      img: "/public/macaneros.png",
       gitHub: "https://github.com/EricBayona/Macaneros",
     },
     {
       name: "Submarino Amarillo",
       desc: "Sitio de Arte Terapia informativo con  JavaScript vanilla.",
       link: "https://silvana-arte-terapia.netlify.app/",
-      img: "../../public/Captura de pantalla 2025-11-06 155713.png",
+      img: "/public/submarinoAmarillo.png",
       gitHub: "https://github.com/EricBayona/SubmarinoAmarillo",
     },
   ];
