@@ -39,7 +39,7 @@ export default function Contact() {
       });
   };
   return (
-    <section id="contact" className="py-16 px-8 bg-white text-center">
+    <section id="contact" className="py-16 px-8 text-center  bg-gray-50">
       <FadeInSection>
         <h3 className="text-3xl font-bold text-blue-800 mb-6">Contacto</h3>
         <form
@@ -47,6 +47,7 @@ export default function Contact() {
           className="max-w-md mx-auto flex flex-col gap-4"
         >
           <input
+            className="border border-blue-800 rounded-b-sm "
             name="first_name"
             placeholder="Nombre"
             value={toSend.first_name}
@@ -54,6 +55,7 @@ export default function Contact() {
             required
           />
           <input
+            className="border border-blue-800 rounded-b-sm "
             name="last_name"
             placeholder="Apellido"
             value={toSend.last_name}
@@ -61,6 +63,7 @@ export default function Contact() {
             required
           />
           <input
+            className="border border-blue-800 rounded-b-sm "
             name="reply_to"
             type="email"
             placeholder="Correo electrónico"
@@ -69,6 +72,7 @@ export default function Contact() {
             required
           />
           <input
+            className="border border-blue-800 rounded-b-sm "
             name="asunto"
             placeholder="Asunto"
             value={toSend.asunto}
@@ -76,6 +80,7 @@ export default function Contact() {
             required
           />
           <textarea
+            className="border border-blue-800 rounded-b-sm "
             name="message"
             placeholder="Ingrese su mensaje..."
             value={toSend.message}

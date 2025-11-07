@@ -29,7 +29,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-25 bg-gray-50 px-8">
+    <section id="projects" className="py-25  bg-white px-8">
       <FadeInSection>
         <h3 className="text-3xl font-bold text-center text-blue-800 mb-8">
           Proyectos

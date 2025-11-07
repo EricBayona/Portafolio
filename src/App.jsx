@@ -5,6 +5,7 @@ import About from "./components/About.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
+import Skill from "./components/Skill.jsx";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       >
         <Hero />
         <About />
+        <Skill />
         <Projects />
         <Contact />
       </motion.main>
